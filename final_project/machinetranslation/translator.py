@@ -18,7 +18,7 @@ language_translator.set_service_url(url)
 
 
 def english_to_french(english_text):
-    '''docstring'''
+    '''Translates English to French'''
     # write the code here
     french_text = language_translator.translate(
         text=english_text,
@@ -27,7 +27,7 @@ def english_to_french(english_text):
 
 
 def french_to_english(french_text):
-    '''docstring'''
+    '''Translates French to English'''
 
     # write the code here
     english_text = language_translator.translate(
